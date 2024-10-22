@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "shot-basketball-detection"
+version = "0.1.0"
+description = ""
+authors = ["Willian <williank97@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mediapipe = "^0.10.14"
+opencv-python = "^4.10.0.84"
+cvzone = "^1.6.1"
+pandas = "^2.2.2"
+matplotlib = "^3.9.1"
+ipykernel = "^6.29.5"
+scikit-learn = "^1.5.1"
+tqdm = "^4.66.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
