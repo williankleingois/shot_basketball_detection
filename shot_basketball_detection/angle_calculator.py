@@ -3,7 +3,7 @@ import numpy as np
 
 class AngleCalculator:
     @staticmethod
-    def calcular_angulo(a, b, c):
+    def calculate_angle(a, b, c):
         ax, ay = a.x, a.y
         bx, by = b.x, b.y
         cx, cy = c.x, c.y

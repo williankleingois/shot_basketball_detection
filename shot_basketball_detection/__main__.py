@@ -1,9 +1,9 @@
 from video_processor import VideoProcessor
 from datetime import datetime
 
-video_path = '/Users/willianklein/Projetos/shot_basketball_detection/data/video_shotings_2024-10-15 22:31:04.449809.mp4'
-model_path = '/Users/willianklein/Projetos/shot_basketball_detection/shot_basketball_detection/models/model.pkl'
-scaler_path = '/Users/willianklein/Projetos/shot_basketball_detection/shot_basketball_detection/models/scaler.pkl'
+video_path = '/Users/willianklein/Projetos/shot_basketball_detection/data/video_shotings_2024-10-24 11:25:35.498089.mp4'
+model_path = '/Users/willianklein/Projetos/shot_basketball_detection/models/model.pkl'
+scaler_path = '/Users/willianklein/Projetos/shot_basketball_detection/models/scaler.pkl'
 
 processor = VideoProcessor(
     show_video=True,
